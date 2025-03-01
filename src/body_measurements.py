@@ -41,8 +41,8 @@ class BodyMeasurements:
 
 
 # Add a custom measurement
-BodyMeasurements.add_custom_measurements("women", "CustomSize", chest=92, waist=86, hips=102)
+#BodyMeasurements.add_custom_measurements("women", "CustomSize", chest=92, waist=86, hips=102)
 
 # Retrieve the custom measurement
-custom_size = BodyMeasurements.get_measurements("women", "CustomSize")
-print(f"Custom Women Size Chest: {custom_size['chest']} cm")
+#custom_size = BodyMeasurements.get_measurements("women", "CustomSize")
+#print(f"Custom Women Size Chest: {custom_size['chest']} cm")
